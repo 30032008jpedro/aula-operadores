@@ -1,22 +1,28 @@
-//calcule e mostre o valor de 77 F em K
+// solicitar o nome do usuario, 3 notas, calculas a média
+//informar o nome do usuario, a media e se a media for maior que 6
+// dar os parabens, se nao pedir para repetir de ano
 
-//(Kelvin) = (Graus_Fahreinheit -32)*(5/9) +273.15
+let NomedoUsuario =prompt("digite seu nome!!!");
 
- (Kelvin) = (77- 32 )* (5/9) +273.15
-console.log(Kelvin);
+let n1 = Number= prompt ('digite sua nota!');
+n1= eval (n1) ;
 
- (graus_Fahreinhet) = (80)*(9/5) + 32
-console.log(graus_Fahreinhet);
+let n2 = Number= prompt ('digite sua segunda nota!');
+n2= eval (n2) ; 
 
-//a
-Kelvin=null
-graus_Fahreinhet =null
-celsius= null
- 
-graus_Fahreinhet = parseFloat(prompt ("Insira a unidade F que será convertida em K"))
+let n3 = Number= prompt ('digite sua terceira nota!')
+n3= eval (n3) ; 
 
-Kelvin (graus_Fahreinhet+273.15);
-console.log(Kelvin ("K")) ;
+media = (n1 + n2 + n3)/3
 
-// d) Altere o ultimo  item para que o usuario insira o valor em graus Celsius que ele deseja converter 
+if ( media >= 6 ) {
+    document.write  ("Aprovado");
+
+} else 
+
+    if ( media =  5 ) {
+        document.write  ("Reprovado");
+        
+        } else 
+        document.write  ("Recuperação");
 
